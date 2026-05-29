@@ -1,0 +1,7 @@
+promise object represent the eventual completion for failure of an aysnchronous operation and its resulting by
+
+client  -> server
+        <- fullfilled/Reject
+p1
+
+

@@ -1,0 +1,11 @@
+placeOrder(() =>{
+    prepareOrder(() =>{
+        pickupOrder(()=>{
+            deliveryFood()
+        });
+    });
+})
+
+//called as callback hell/Callback chaining / callback hell
+
+

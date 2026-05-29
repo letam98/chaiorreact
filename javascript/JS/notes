@@ -1,0 +1,60 @@
+in javascript array store under any type of data like number string boolean
+//typeof arr - specify type of variable data type or object
+//object are mutable 
+
+in array new data and delete and   add using - push and pop
+
+unshift -using ths add starting value in array
+shif- delete first element using shift
+
+use array -and we can chnage the addreess using let and variable
+
+let marks12=[34,22,55,67];
+marks12=[33,90,87];
+
+easilsy change address 
+
+But const variable use then try to change is not possible to change address
+const marks123=[34,22,55,67];
+marks123=[33,90,87];
+
+console.log(marks123); 
+
+  const obj = {
+  name: "Ketan",
+  greet: () => {
+    console.log(this.name);
+  }
+};
+ 
+obj.greet();
+
+splice - orignal array under changes trim out
+slice - original array not change
+spread operator - destroy array and return indidual item in one list
+
+flat - same like flat map collect all array data in single list
+const a=arr.flat(Infinity);
+console.log(a);
+
+ Deep Copy vs Shallow Copy
+🔷 1. Definition
+✅ Shallow Copy
+
+Only top-level properties copy hotat, pan nested objects same reference detat
+
+👉 Meaning:
+
+Outer copy ✅
+Inner (nested) ❌ same memory
+
+
+✅ Deep Copy
+
+Complete object (including nested) full copy hoto
+
+👉 Meaning:
+
+Outer ✅ new copy
+Inner ✅ new copy
+✅ No shared reference

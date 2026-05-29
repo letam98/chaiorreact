@@ -1,0 +1,3 @@
+useEffect hooks:
+1. cache a funtion defination between rerender.
+2.memoized function only change dpendecy then rerender

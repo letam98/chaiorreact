@@ -1,0 +1,11 @@
+using function we can reuse same funtion multiple place
+
+IMMEDIATE INVOKE funtion
+
+
+callback function -is a function passed argument as another function called as callback function
+real world use:
+
+Foreach-get one by one data and perform operation
+
+filter -original array to select required element using filter
